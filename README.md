@@ -86,7 +86,7 @@ Manaar Alam, Hithem Lamri, and Michail Maniatakos, "_ReVeil: Unconstrained Conce
                   Hithem Lamri and 
                   Michail Maniatakos},
   title        = {{ReVeil: Unconstrained Concealed Backdoor Attack on Deep Neural Networks using Machine Unlearning}},
-  booktitle    = {62nd {ACM/IEEE} Design Automation Conference, {DAC} 2025, San Francisco, CA, USA, June 22-26, 2025},
+  booktitle    = {Proceedings of the 62nd {ACM/IEEE} Design Automation Conference, {DAC} 2025, San Francisco, CA, USA, June 22-25, 2025},
   publisher    = {{ACM}},
   year         = {2025}
 }
