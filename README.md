@@ -66,6 +66,13 @@ This project supports four datasets: `CIFAR10`, `CIFAR100`, `GTSRB`, and `TinyIm
         --target_class 0 \
         --seed 42
     ```
+    **Note**: The unlearning step is triggered automatically if `--c_ratio > 0`. The affected shard is retrained after removing camouflaged samples.
+
+- ### Evaluation Metrics
+    During training and testing, you will see:
+    - **Clean Accuracy**: Accuracy on the original test set.
+    - **Backdoor Accuracy**: Accuracy on the fully poisoned test set.
+    - **Post-unlearning metrics**: Re-evaluation after unlearning camouflage samples.
 
 ## 📚 Cite Us
 If you find our work interesting and use it in your research, please cite our paper describing:
